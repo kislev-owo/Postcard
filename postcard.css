@@ -1,0 +1,37 @@
+body{
+    background-color:black; 
+    font-size: 15px; font-family: 'Varela Round', sans-serif;
+}
+.postcard{
+    background:white; width: 480px; height: 300px; margin: auto; 
+	position: absolute;  top:50%; left: 50%; transform: translate(-50%, -50%);
+    padding: 15px;
+}
+.postcard-encabezado { 
+    overflow: hidden;
+} 
+.postcard-encabezado img{
+    max-width: 60px; float: right;
+} 
+.postcard-body{
+    overflow: hidden;
+}
+.postcard h1{
+    margin: 0; /* el margen 0 es para q el margen del titutlo suba y tenga lo mismo a la izquierda q arriba*/
+} 
+.izquierda {
+    float: left; width: 48%;
+} 
+.derecha{
+    float: right; width: 50%;
+}	
+.postcard-boton{
+    padding: 10px; text-align: center;
+}
+
+.postcard-body input[type=text]{
+    border:none; border-bottom: 1px solid #bfbdb8; width: 300px;/*eliminamos el cuadro y solo ponemos una linea abajo de las 3 entradas de la derecha*/
+    margin-bottom:10px; padding: 5px} /*pongo un margen abajo de las 3 casillas y las separo con el padding*/
+input{
+    font-size: 18px;  /*ponemos las letras mas grandes dentro de los input*/
+} 
